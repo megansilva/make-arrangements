@@ -36,7 +36,7 @@ $(document).ready(function () {
 
             } else {
                 $(this).removeClass("past");
-                $(this).removelass("present");
+                $(this).removeClass("present");
                 $(this).addClass("future");
             }
         });
