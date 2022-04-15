@@ -11,6 +11,7 @@
     <li> JavaScript
     <li> CSS
     <li> Bootstrap
+    <li> Moment.js
 </ul>
 
 ## Screenshots
