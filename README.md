@@ -12,6 +12,10 @@
     <li> CSS
     <li> 
 </ul>
+
 ## Screenshots
+<img src="assets/images/screenshot1.jpg" alt="">
+<img src="assets/images/screenshot2.jpg" alt="">
+<img src="assets/images/screenshot3.jpg" alt="">
 
 ## Link
