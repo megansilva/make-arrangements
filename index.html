@@ -1,127 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/styles.css" />
     <title>Work Day Scheduler</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
     </header>
 
     <div class="container">
-      <!-- Timeblocks go here -->
-      <!--Add each individual time using the class hour so the syle matches up-->
-        <div id="time1" 
-            class="hour col-md-1"> 
+        <!-- Timeblocks go here -->
+        <!--Add each individual time using the class hour so the syle matches up-->
+        <div id="time8" class="row time-block">
+            <div class="hour col-md-1">
                 8 AM
-        </div>
-        <!--Add the class description to repeat the syle from css while adding a column-->
-            <textarea class="col-md-10 description" ></textarea>
-        <!--The save button from style sheet-->
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </div>
+            <!--Add the class description to repeat the syle from css while adding a column-->
+            <textarea class="col-md-10 description"></textarea>
+            <!--The save button from style sheet-->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-            <!--Repeated for each individual time slot-->
-        <div id="time2" 
-            class="hour col-md-1">
+        <!--Repeated for each individual time slot-->
+        <div id="time9" class="row time-block">
+            <div class="hour col-md-1">
                 9 AM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time3" 
-            class="hour col-md-1">
+        <div id="time10" class="row time-block">
+            <div class="hour col-md-1">
                 10 AM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time4" 
-            class="hour col-md-1">
+        <div id="time11" class="row time-block">
+            <div class="hour col-md-1">
                 11 AM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time5" 
-            class="hour col-md-1">
+        <div id="time12" class="row time-block">
+            <div class="hour col-md-1">
                 12 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time6" 
-            class="hour col-md-1">
+        <div id="time13" class="row time-block">
+            <div class="hour col-md-1">
                 1 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time7" 
-            class="hour col-md-1">
+        <div id="time14" class="row time-block">
+            <div class="hour col-md-1">
                 2 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time8" 
-            class="hour col-md-1">
+        <div id="time15" class="row time-block">
+            <div class="hour col-md-1">
                 3 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time9" 
-            class="hour col-md-1">
+        <div id="time16" class="row time-block">
+            <div class="hour col-md-1">
                 4 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
 
-        <div id="time10" 
-            class="hour col-md-1">
+        <div id="time17" class="row time-block">
+            <div class="hour col-md-1">
                 5 PM
             </div>
             <textarea class="col-md-10 description"></textarea>
-            <button class="saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
         </div>
- 
+
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  
+
 </body>
 
-  </html>
+</html>
